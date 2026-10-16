@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Diana vs. Gonçalo | Couple Showdown</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="fundo-luz luz-rosa"></div>
+    <div class="fundo-luz luz-laranja"></div>
+
+    <header class="topo">
+        <a class="logo" href="#inicio">D<span>×</span>G</a>
+        <p class="estado-jogo"><span class="ponto"></span> RELAÇÃO EM RISCO</p>
+        <p class="versao">COUPLE SHOWDOWN · 2026</p>
+    </header>
+
+    <main class="arena" id="inicio">
+
+        <section class="introducao">
+            <p class="etiqueta">⚠ ALERTA: EGO FRÁGIL DETETADO</p>
+
+            <h1>
+                DIANA <span class="vs-titulo">VS.</span><br>
+                <span class="titulo-goncalo">GONÇALO</span>
+            </h1>
+
+            <p class="descricao">
+                Dois jogadores. Uma relação.
+                E uma quantidade preocupante de coisas para discutir.
+            </p>
+
+            <div class="separador">
+                <span></span>
+                <p>QUE COMECEM OS JOGOS</p>
+                <span></span>
+            </div>
+        </section>
+
+        <section class="jogadores" aria-label="Apresentação dos jogadores">
+
+            <article class="cartao-jogador diana">
+                <div class="cartao-topo">
+                    <span class="jogador-numero">PLAYER 01</span>
+                    <span class="nivel nivel-diana">BOSS</span>
+                </div>
+
+                <div class="avatar avatar-diana">👑</div>
+
+                <p class="cargo">A CHEFE FINAL</p>
+                <h2>DIANA</h2>
+
+                <p class="frase">
+                    Tem sempre razão. Próxima pergunta.
+                </p>
+
+                <div class="barra-info">
+                    <span>CONFIANÇA</span>
+                    <span>99%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="preenchimento diana-barra"></div>
+                </div>
+
+                <p class="especialidade">ESPECIALIDADE: ÚLTIMA PALAVRA</p>
+            </article>
+
+            <div class="simbolo-vs">VS</div>
+
+            <article class="cartao-jogador goncalo">
+                <div class="cartao-topo">
+                    <span class="jogador-numero">PLAYER 02</span>
+                    <span class="nivel nivel-goncalo">NOOB?</span>
+                </div>
+
+                <div class="avatar avatar-goncalo">🎮</div>
+
+                <p class="cargo">O SUSPEITO DO DIA</p>
+                <h2>GONÇALO</h2>
+
+                <p class="frase">
+                    Diz «já vou» como se fosse uma unidade de tempo.
+                </p>
+
+                <div class="barra-info">
+                    <span>CAPACIDADE DE DEFESA</span>
+                    <span>12%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="preenchimento goncalo-barra"></div>
+                </div>
+
+                <p class="especialidade">ESPECIALIDADE: ARRANJAR DESCULPAS</p>
+            </article>
+
+        </section>
+
+        <section class="comecar" id="comecar">
+            <div class="selo">⚔ DUELO DE NAMORADOS ⚔</div>
+
+            <h2>Quem vai sobreviver ao confronto?</h2>
+
+            <p>
+                Responde às perguntas, ganha pontos e tenta
+                sair daqui com a tua reputação intacta.
+            </p>
+
+            <button class="botao-principal" id="botaoComecar" type="button">
+                INICIAR CONFRONTO <span>→</span>
+            </button>
+
+            <p class="nota">
+                SEM BATOTAS. SEM DESCULPAS. ESTAMOS DE OLHO. 👀
+            </p>
+        </section>
+
+        <section class="zona-jogo" id="zonaJogo" hidden>
+            <div class="jogo-cabecalho">
+                <span class="etiqueta">RONDA DE CONFRONTO</span>
+                <span class="contador" id="contador">PERGUNTA 1 / 5</span>
+            </div>
+
+            <div class="progresso">
+                <div id="progressoBarra"></div>
+            </div>
+
+            <p class="categoria" id="categoria">COMPATIBILIDADE</p>
+            <h2 id="pergunta">Preparados?</h2>
+            <p class="instrucao" id="instrucao">
+                Escolhe a resposta que melhor descreve a vossa relação.
+            </p>
+
+            <div class="opcoes" id="opcoes">
+                <button class="opcao" type="button" data-pontos="1">
+                    Opção A
+                </button>
+                <button class="opcao" type="button" data-pontos="0">
+                    Opção B
+                </button>
+            </div>
+
+            <p class="mensagem-jogo" id="mensagemJogo" aria-live="polite"></p>
+
+            <button class="botao-principal botao-proximo" id="botaoProximo"
+                type="button" hidden>
+                PRÓXIMA PERGUNTA →
+            </button>
+        </section>
+
+        <section class="resultado" id="resultado" hidden>
+            <div class="trofeu">🏆</div>
+            <p class="etiqueta">FIM DO CONFRONTO</p>
+            <h2 id="tituloResultado">TEMOS UM VENCEDOR!</h2>
+            <p id="textoResultado"></p>
+
+            <div class="pontuacoes">
+                <div class="pontuacao pontuacao-diana">
+                    <span>DIANA</span>
+                    <strong id="pontosDiana">0</strong>
+                    <small>PONTOS</small>
+                </div>
+
+                <div class="pontuacao pontuacao-goncalo">
+                    <span>GONÇALO</span>
+                    <strong id="pontosGoncalo">0</strong>
+                    <small>PONTOS</small>
+                </div>
+            </div>
+
+            <button class="botao-principal" id="botaoReiniciar" type="button">
+                JOGAR OUTRA VEZ ↻
+            </button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>FEITO COM AMOR ❤️‍🔥 E UMA QUANTIDADE QUESTIONÁVEL DE ROAST.</p>
+        <p class="rodape-pequeno">DIANA × GONÇALO · EDIÇÃO PRIVADA DO CASAL</p>
+    </footer>
+</body>
+</html>

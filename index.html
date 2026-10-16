@@ -1,0 +1,758 @@
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Diana vs. Gonçalo | DIANINHAPT,JIBA_peek</title>
+
+    <link rel="stylesheet" href="./style.css"><script>
+    if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+    }
+
+    window.addEventListener("pageshow", function () {
+        if (!window.location.hash) {
+            window.scrollTo(0, 0);
+        }
+    });
+</script>
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <!-- ANIMAÇÃO DE ENTRADA -->
+    <div id="intro-site" class="intro-site">
+        <div class="intro-coracao">♥</div>
+        <p class="intro-etiqueta">A SPECIAL MATCH</p>
+        <h1>DIANA <span>×</span> GONÇALO</h1>
+        <p class="intro-mensagem">Uma história. Dois jogadores. Um só amor.</p>
+        <div class="intro-carregamento">
+            <div></div>
+        </div>
+        <span class="intro-legenda">A preparar o vosso universo...</span>
+    </div>
+
+
+    <!-- EFEITOS DECORATIVOS DO FUNDO -->
+    <div class="efeitos-fundo" id="efeitos-fundo" aria-hidden="true"></div>
+    <div class="luz luz-rosa"></div>
+    <div class="luz luz-laranja"></div>
+
+    <!-- CABEÇALHO -->
+    <header class="topo">
+        <a href="#inicio" class="logo">D<span>×</span>G</a>
+
+        <div class="estado">
+            <span class="ponto"></span>
+            DUO MATCH: ATIVO
+        </div>
+
+        <span class="versao">COUPLE SHOWDOWN · 2026</span>
+    </header>
+
+    <!-- ECRÃ DE ENTRADA -->
+    <section class="entrada-casal" id="entrada-casal">
+        <div class="entrada-brilhos" aria-hidden="true">✦ · ♡ · ✧ · ♡ · ✦</div>
+
+        <p class="entrada-etiqueta">PLAYER 01 💗 PLAYER 02</p>
+
+        <h1>
+            TWO PLAYERS.<br>
+            <span>ONE LOVE.</span>
+        </h1>
+
+        <p class="entrada-descricao">
+            A vossa história, os vossos desafios e uma rivalidade
+            que nem o amor consegue parar.
+        </p>
+
+        <div class="entrada-nomes">
+            <span>DIANA</span>
+            <span class="entrada-vs">×</span>
+            <span>GONÇALO</span>
+        </div>
+
+        <a href="#arena" class="entrada-botao">
+            ENTRAR NO JOGO <span>↓</span>
+        </a>
+
+        <p class="entrada-nota">A carregar memórias bonitas... ♥</p>
+    </section>
+
+    <main class="container" id="inicio">
+
+        <!-- APRESENTAÇÃO -->
+        <section class="hero">
+            <p class="etiqueta">⚠ ALERTA: O amor esta no ar</p>
+
+            <h1>
+                DIANA <span class="versus-texto">VS.</span><br>
+                <span class="titulo-gradiente">GONÇALO</span>
+            </h1>
+
+            <p class="subtitulo">
+                Uma relação. Dois jogadores. Zero vontade de admitir que estão errados.
+            </p>
+
+            <a href="#arena" class="botao-hero">COMEÇAR O DESAFIO ↓</a>
+        </section>
+
+        <!-- JOGADORES -->
+        <section class="jogadores" aria-label="Apresentação dos jogadores">
+
+            <article class="cartao diana">
+                <div class="cartao-topo">
+                    <span class="player">PLAYER 01</span>
+                    <span class="icone">♡</span>
+                </div>
+
+                <div class="avatar avatar-diana">D</div>
+
+                <h2>DIANA</h2>
+                <p class="nickname">A CHEFE DO LOBBY</p>
+
+                <div class="estatistica">
+                    <div class="estatistica-label">
+                        <span>Teimosia</span>
+                        <strong>95/100</strong>
+                    </div>
+                    <div class="barra">
+                        <div class="barra-preenchida rosa" style="width:95%"></div>
+                    </div>
+                </div>
+
+                <div class="estatistica">
+                    <div class="estatistica-label">
+                        <span>Última palavra</span>
+                        <strong>100/100</strong>
+                    </div>
+                    <div class="barra">
+                        <div class="barra-preenchida rosa" style="width:100%"></div>
+                    </div>
+                </div>
+
+                <div class="frase">
+                    "Não estou chateada. Estou a explicar."
+                </div>
+            </article>
+
+            <div class="versus-centro">
+                <span>VS</span>
+                <small>ROUND 01</small>
+            </div>
+
+            <article class="cartao goncalo">
+                <div class="cartao-topo">
+                    <span class="player">PLAYER 02</span>
+                    <span class="icone">♧</span>
+                </div>
+
+                <div class="avatar avatar-goncalo">G</div>
+
+                <h2>GONÇALO</h2>
+                <p class="nickname">O REI DAS DESCULPAS</p>
+
+                <div class="estatistica">
+                    <div class="estatistica-label">
+                        <span>Teimosia</span>
+                        <strong>90/100</strong>
+                    </div>
+                    <div class="barra">
+                        <div class="barra-preenchida laranja" style="width:90%"></div>
+                    </div>
+                </div>
+
+                <div class="estatistica">
+                    <div class="estatistica-label">
+                        <span>"Já vou"</span>
+                        <strong>99/100</strong>
+                    </div>
+                    <div class="barra">
+                        <div class="barra-preenchida laranja" style="width:99%"></div>
+                    </div>
+                </div>
+
+                <div class="frase">
+                    "Calma, amor. Já vou."
+                </div>
+            </article>
+
+        </section>
+
+        <!-- QUIZ DO CASAL -->
+        <section class="arena" id="arena">
+            <div class="arena-topo">
+                <div>
+                    <p class="etiqueta">⚔ TESTE DE SOBREVIVÊNCIA</p>
+                    <h2>Quem merece os pontos?</h2>
+                </div>
+
+                <div class="contador" id="contador">01 / 05</div>
+            </div>
+
+            <div class="progresso">
+                <div id="progresso-barra"></div>
+            </div>
+
+            <div id="zona-pergunta">
+                <p class="categoria" id="categoria">ROUND 1 · RELACIONAMENTO</p>
+
+                <h3 id="pergunta">
+                    Quem pede desculpa primeiro depois de uma discussão?
+                </h3>
+
+                <p class="ajuda">
+                    Escolhe quem faz o trodilo hoje?
+                </p>
+
+                <div class="opcoes">
+                    <button type="button" class="opcao opcao-diana" data-jogador="diana">
+                        <span class="opcao-emoji">💗</span>
+                        <span>Diana</span>
+                        <span class="seta">→</span>
+                    </button>
+
+                    <button type="button" class="opcao opcao-goncalo" data-jogador="goncalo">
+                        <span class="opcao-emoji">🧡</span>
+                        <span>Gonçalo</span>
+                        <span class="seta">→</span>
+                    </button>
+                </div>
+            </div>
+
+            <div id="feedback" aria-live="polite"></div>
+
+            <div id="zona-resultado" hidden>
+                <div class="trofeu">🏆</div>
+                <p class="etiqueta">FIM DE JOGO</p>
+                <h3 id="vencedor">Temos um vencedor!</h3>
+                <p id="mensagem-final"></p>
+
+                <div class="placar-final">
+                    <div class="placar-diana">
+                        <span>DIANA</span>
+                        <strong id="resultado-diana">0</strong>
+                    </div>
+
+                    <span class="separador">:</span>
+
+                    <div class="placar-goncalo">
+                        <span>GONÇALO</span>
+                        <strong id="resultado-goncalo">0</strong>
+                    </div>
+                </div>
+
+                <button type="button" id="reiniciar" class="botao-principal">
+                    ↻ JOGAR NOVAMENTE
+                </button>
+            </div>
+
+            <button type="button" id="proxima" class="botao-principal" hidden>
+                PRÓXIMA PERGUNTA →
+            </button>
+        </section>
+
+        <!-- AVISO -->
+        <section class="aviso">
+            <span>♥</span>
+            <p>
+                Rivalidade no jogo, amor fora dele.
+                <strong>É só para brincar!</strong>
+            </p>
+        </section>
+
+        <!-- A NOSSA HISTÓRIA -->
+        <section class="historia" id="nossa-historia">
+
+            <div class="historia-cabecalho">
+                <p class="etiqueta">💗 O NOSSO CANTINHO</p>
+                <h2>A nossa <span>história</span></h2>
+                <p>Dois teimosos, muitas memórias e uma história ainda a ser escrita.</p>
+            </div>
+
+            <div class="contador-amor">
+                <p class="etiqueta">JUNTOS DESDE 01.10.2025</p>
+                <h3>O nosso tempo juntos 💞</h3>
+
+                <div class="tempo-grid">
+                    <div class="tempo-item">
+                        <strong id="tempo-anos">0</strong>
+                        <span>anos</span>
+                    </div>
+
+                    <div class="tempo-item">
+                        <strong id="tempo-meses">0</strong>
+                        <span>meses</span>
+                    </div>
+
+                    <div class="tempo-item">
+                        <strong id="tempo-dias">0</strong>
+                        <span>dias</span>
+                    </div>
+                </div>
+
+                <p id="frase-tempo">A contar os dias das nossas memórias. 💗</p>
+            </div>
+
+            <div class="memorias">
+                <h3>Os nossos momentos 📸</h3>
+                <p>Muitas memórias e uma história nossa.</p>
+
+                <div class="galeria-casal">
+                    <figure class="foto-memoria">
+                        <img src="imagens/casal-1.jpg" alt="Uma memória especial do casal">
+                        <figcaption>O nosso cantinho 💗</figcaption>
+                    </figure>
+
+                    <figure class="foto-memoria">
+                        <img src="imagens/IMG_5658.jpeg" alt="Uma fotografia nossa">
+                        <figcaption>Momentos felizes 🧡</figcaption>
+                    </figure>
+
+                    <figure class="foto-memoria">
+                        <img src="imagens/IMG_6413.jpeg" alt="Uma memória do casal">
+                        <figcaption>Memórias para guardar ✨</figcaption>
+                    </figure>
+
+                    <figure class="foto-memoria">
+                        <img src="imagens/IMG_5787.jpeg" alt="Mais um momento especial">
+                        <figcaption>Mais um capítulo 💕</figcaption>
+                    </figure>
+
+                    <figure class="foto-memoria">
+                        <img src="imagens/IMG_5612.jpeg" alt="Uma recordação nossa">
+                        <figcaption>A nossa história continua ❤️</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="linha-tempo">
+                <h3>Pequenos capítulos da nossa história ✨</h3>
+
+                <div class="momento">
+                    <span class="momento-ponto">💗</span>
+                    <div>
+                        <p class="momento-data">01 OUTUBRO 2025</p>
+                        <h4>O início oficial</h4>
+                        <p>O dia em que começou oficialmente a nossa história.</p>
+                    </div>
+                </div>
+
+                <div class="momento">
+                    <span class="momento-ponto">🧡</span>
+                    <div>
+                        <p class="momento-data">UMA MEMÓRIA NOSSA</p>
+                        <h4>Um dia para recordar</h4>
+                        <p>Um momento especial que queremos guardar para sempre.</p>
+                    </div>
+                </div>
+
+                <div class="momento">
+                    <span class="momento-ponto">✨</span>
+                    <div>
+                        <p class="momento-data">O QUE AINDA VEM AÍ</p>
+                        <h4>A história continua...</h4>
+                        <p>Mais gargalhadas, aventuras e memórias por criar.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- VERDADE OU DESAFIO -->
+        <section class="verdade-desafio" id="verdade-desafio">
+
+            <div class="vd-cabecalho">
+                <p class="etiqueta">💕 MODO CASAL</p>
+                <h2>Verdade <span>ou</span> Desafio?</h2>
+                <p>Sem batotas, sem pensar demasiado... e muitas gargalhadas! 🤭</p>
+            </div>
+
+            <div class="vd-cartao">
+                <div class="vd-icone">💌</div>
+
+                <p class="vd-legenda">DE QUEM É A VEZ?</p>
+                <h3 id="vd-jogador">Diana</h3>
+
+                <div class="vd-jogadores">
+                    <button type="button" class="vd-jogador ativo" data-nome="Diana">
+                        💗 Diana
+                    </button>
+
+                    <button type="button" class="vd-jogador" data-nome="Gonçalo">
+                        🧡 Gonçalo
+                    </button>
+                </div>
+
+                <div class="vd-separador"></div>
+
+                <p class="vd-pergunta">Escolhe o teu destino...</p>
+
+                <div class="vd-escolhas">
+                    <button type="button" id="vd-verdade" class="vd-botao vd-verdade">
+                        💭 Verdade
+                        <span>Responder com sinceridade</span>
+                    </button>
+
+                    <button type="button" id="vd-desafio" class="vd-botao vd-desafio">
+                        🎲 Desafio
+                        <span>Vamos ver se tens coragem!</span>
+                    </button>
+                </div>
+
+                <div id="vd-resultado" class="vd-resultado" hidden>
+                    <span id="vd-tipo" class="vd-tipo"></span>
+                    <p id="vd-texto"></p>
+
+                    <button type="button" id="vd-outro" class="vd-acao">
+                        🔄 Outra carta
+                    </button>
+
+                    <button type="button" id="vd-passar" class="vd-passar">
+                        👉 Passar a vez
+                    </button>
+                </div>
+
+                <p class="vd-nota">
+                    ✨ Podem trocar uma carta se não se sentirem confortáveis.
+                    O objetivo é divertirem-se!
+                </p>
+            </div>
+        </section>
+
+        <!-- ESCAPE ROOM DO CASAL -->
+        <section class="escape-room" id="escape-room">
+
+            <div class="escape-cabecalho">
+                <p class="etiqueta">🔐 MISSÃO ESPECIAL</p>
+                <h2>O Tesouro do Nosso Amor</h2>
+                <p>Trabalhem juntos para descobrir o código secreto!</p>
+            </div>
+
+            <div class="escape-cartao">
+                <div class="escape-icon">🗝️</div>
+
+                <div class="escape-progresso">
+                    <span id="escape-nivel">NÍVEL 1 DE 3</span>
+                    <span id="escape-pontos">⭐ 0 pontos</span>
+                </div>
+
+                <div class="escape-barra">
+                    <div id="escape-barra-preenchida"></div>
+                </div>
+
+                <h3 id="escape-titulo">A Porta Misteriosa</h3>
+
+                <p id="escape-enigma">
+                    Estou sempre presente nas vossas fotografias,
+                    mas não sou uma pessoa. O que sou?
+                </p>
+
+                <div class="escape-pista" id="escape-pista" hidden>
+                    💡 <span id="escape-texto-pista"></span>
+                </div>
+
+                <button type="button" id="escape-mostrar-pista">
+                    💡 Pedir uma pista
+                </button>
+
+                <form id="escape-formulario">
+                    <label for="escape-resposta">A vossa resposta:</label>
+
+                    <input
+                        type="text"
+                        id="escape-resposta"
+                        placeholder="Escrevam a resposta..."
+                        autocomplete="off"
+                        required
+                    >
+
+                    <button type="submit" id="escape-verificar">
+                        🔓 Verificar resposta
+                    </button>
+                </form>
+
+                <p id="escape-feedback" aria-live="polite"></p>
+
+                <div id="escape-final" hidden>
+                    <div class="escape-tesouro">💝</div>
+                    <h3>Conseguiram!</h3>
+                    <p>
+                        O maior tesouro não estava dentro do cofre,
+                        mas nas memórias que continuam a construir juntos.
+                    </p>
+
+                    <button type="button" id="escape-recomecar">
+                        🔄 Jogar novamente
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- DUELO DE MINIJOGOS -->
+        <section class="duelo-seccao" id="duelo-minijogos">
+
+            <div class="duelo-cabecalho">
+                <p class="etiqueta">🎮 MODO COMPETITIVO</p>
+                <h2>Duelo de <span>Minijogos</span></h2>
+                <p>Três jogos, dois jogadores e só um pode ganhar!</p>
+            </div>
+
+            <!-- ECRÃ INICIAL -->
+            <div class="duelo-cartao" id="duelo-inicio">
+                <div class="duelo-emoji">🏆</div>
+                <p class="etiqueta">PLAYER 01 VS PLAYER 02</p>
+                <h3>Quem domina o comando?</h3>
+                <p>
+                    Testem os vossos reflexos, a memória e a pontaria.
+                    Cada jogador joga à vez e acumula pontos!
+                </p>
+
+                <div class="duelo-jogadores">
+                    <div>💗 <strong>Diana</strong></div>
+                    <span>VS</span>
+                    <div>🧡 <strong>Gonçalo</strong></div>
+                </div>
+
+                <button type="button" id="duelo-comecar" class="botao-principal">
+                    ⚡ COMEÇAR O TORNEIO
+                </button>
+            </div>
+
+            <!-- ÁREA DOS JOGOS -->
+            <div class="duelo-cartao" id="duelo-area" hidden>
+
+                <div class="duelo-placar">
+                    <div>
+                        <span>💗 DIANA</span>
+                        <strong id="duelo-pontos-diana">0</strong>
+                    </div>
+                    <div>
+                        <span>🧡 GONÇALO</span>
+                        <strong id="duelo-pontos-goncalo">0</strong>
+                    </div>
+                </div>
+
+                <div class="duelo-progresso">
+                    <span id="duelo-etapa">RONDA 1</span>
+                    <span id="duelo-numero">JOGO 1 DE 3</span>
+                </div>
+
+                <div class="duelo-barra">
+                    <div id="duelo-barra-preenchida"></div>
+                </div>
+
+                <p id="duelo-jogo-numero">MINIJOGO 1</p>
+                <p id="duelo-jogador-atual">Vez da Diana 💗</p>
+
+                <h3 id="duelo-titulo">Reflexos relâmpago ⚡</h3>
+
+                <p id="duelo-instrucoes">
+                    Prepara-te para testar os teus reflexos!
+                </p>
+
+                <div id="duelo-palco" class="duelo-palco">
+                    <p id="duelo-mensagem" aria-live="polite">
+                        Prepara-te para jogar!
+                    </p>
+
+                    <button type="button" id="duelo-acao" class="botao-principal">
+                        COMEÇAR
+                    </button>
+
+                    <div id="duelo-opcoes" class="duelo-opcoes"></div>
+
+                    <div id="duelo-alvos" class="duelo-alvos"></div>
+                </div>
+
+                <p id="duelo-feedback" aria-live="polite"></p>
+
+                <button type="button" id="duelo-continuar" class="botao-principal" hidden>
+                    CONTINUAR →
+                </button>
+            </div>
+
+            <!-- RESULTADO FINAL -->
+            <div class="duelo-cartao" id="duelo-final" hidden>
+                <div id="duelo-trofeu" class="duelo-emoji">🏆</div>
+                <p class="etiqueta">TORNEIO TERMINADO</p>
+                <h3 id="duelo-vencedor">Temos um vencedor!</h3>
+                <p id="duelo-resumo">
+                    O torneio chegou ao fim!
+                </p>
+
+                <div class="duelo-placar">
+                    <div>
+                        <span>💗 DIANA</span>
+                        <strong id="duelo-final-diana">0</strong>
+                    </div>
+                    <div>
+                        <span>🧡 GONÇALO</span>
+                        <strong id="duelo-final-goncalo">0</strong>
+                    </div>
+                </div>
+
+                <p id="duelo-classificacao"></p>
+
+                <button type="button" id="duelo-repetir" class="botao-principal">
+                    🔄 JOGAR OUTRA VEZ
+                </button>
+            </div>
+
+        </section>
+
+<!-- ROLETA: O GONÇALO VAI JOGAR CS2? -->
+<section class="roleta-cs" id="roleta-cs">
+    <div class="roleta-cabecalho">
+        <p class="etiqueta">🎰 ORÁCULO OFICIAL DO CASAL</p>
+        <h2>O Gonçalo vai jogar <span>CS2 hoje?</span></h2>
+        <p>Vamos consultar o destino... e a Steam dele. 😂</p>
+    </div>
+
+    <div class="roleta-cartao">
+        <div class="roleta-seta">▼</div>
+
+        <div class="roleta-roda-container">
+            <div id="roleta-roda" class="roleta-roda">
+                <div class="roleta-opcao opcao-1"><span>SIM 🎮</span></div>
+                <div class="roleta-opcao opcao-2"><span>NÃO 💗</span></div>
+                <div class="roleta-opcao opcao-3"><span>SÓ UMA 🤡</span></div>
+                <div class="roleta-opcao opcao-4"><span>ATÉ TARDE 🌙</span></div>
+                <div class="roleta-opcao opcao-5"><span>NOITE DE CASAL 💕</span></div>
+                <div class="roleta-opcao opcao-6"><span>RANKED 🔥</span></div>
+                <div class="roleta-centro">CS2</div>
+            </div>
+        </div>
+
+        <p class="roleta-instrucao">
+            Concentra-te, Diana. A verdade está prestes a ser revelada...
+        </p>
+
+        <button type="button" id="roleta-girar" class="botao-principal">
+            🎰 DESCOBRIR O DESTINO
+        </button>
+
+        <div id="roleta-resultado" class="roleta-resultado" aria-live="polite" hidden>
+            <span id="roleta-emoji">🎮</span>
+            <h3 id="roleta-titulo">O destino decidiu!</h3>
+            <p id="roleta-mensagem"></p>
+            <button type="button" id="roleta-novamente" class="botao-principal">
+                🔄 GIRAR OUTRA VEZ
+            </button>
+        </div>
+
+        <p class="roleta-aviso">⚠️ Resultado meramente humorístico. A Steam não foi consultada. 😂</p>
+<div id="vinganca-diana" class="vinganca-diana" hidden>
+    <div class="vinganca-emoji">😈💗</div>
+    <p class="etiqueta">MODO VINGANÇA ATIVADO</p>
+    <h3>Apanhado, Gonçalo!</h3>
+    <p id="vinganca-mensagem"></p>
+
+    <div class="vinganca-desafio">
+        <span>💌 MISSÃO PARA O GONÇALO</span>
+        <p id="vinganca-missao"></p>
+    </div>
+
+    <button type="button" id="vinganca-outra" class="botao-principal">
+        🎲 OUTRA MISSÃO
+    </button>
+</div>
+
+    </div>
+</section>
+
+        <!-- CONTROLADORES DO JOGO -->
+        <section class="controlos-extra" id="controlos-extra">
+            <p class="etiqueta">🎮 MODO EXTRA</p>
+            <h2>Tu controlas o jogo</h2>
+
+            <div class="botoes-extra">
+                <button type="button" id="som-toggle" class="botao-extra">
+                    🔊 Sons: ligados
+                </button>
+
+                <button type="button" id="musica-toggle" class="botao-extra">
+                    🎵 Ligar música
+                </button>
+
+                <button type="button" id="ecran-toggle" class="botao-extra">
+                    ⛶ Ecrã inteiro
+                </button>
+
+                <button type="button" id="jogar-novamente" class="botao-extra">
+                    🔄 Jogar novamente
+                </button>
+            </div>
+
+            <audio id="musica-casal" loop preload="none">
+                <source src="imagens/musica.mp3" type="audio/mpeg">
+            </audio>
+
+            <p class="nota-controlos">
+                A música é opcional. Coloca um ficheiro chamado
+                musica.mp3 dentro da pasta imagens para a utilizares.
+            </p>
+        </section>
+
+        <!-- RODAPÉ -->
+        <footer class="rodape">
+            <span>D × G</span>
+            <p>FEITO COM AMOR, TEIMOSIA E UM BOCADINHO DE CAOS.</p>
+            <span>PRIVATE MATCH © 2026</span>
+        </footer>
+
+    </main>
+
+    <!-- BOTÃO DO SEGREDO ROMÂNTICO -->
+    <button
+        id="segredo-botao"
+        class="segredo-botao"
+        type="button"
+        aria-label="Descobrir uma surpresa secreta"
+        title="Psst... há um segredo aqui 💗"
+    >
+        ♡
+    </button>
+
+    <!-- JANELA DA SURPRESA -->
+    <div id="segredo-modal" class="segredo-modal" hidden>
+        <div
+            class="segredo-conteudo"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="segredo-titulo"
+        >
+            <button
+                id="segredo-fechar"
+                class="segredo-fechar"
+                type="button"
+                aria-label="Fechar surpresa"
+            >
+                ×
+            </button>
+
+            <div class="segredo-coracao" aria-hidden="true">💗</div>
+
+            <p class="segredo-etiqueta">UM SEGREDO SÓ VOSSO</p>
+
+            <h2 id="segredo-titulo">Encontraste o nosso cantinho secreto!</h2>
+
+            <p id="segredo-mensagem">
+                Entre tantas aventuras, há uma coisa que torna esta história especial:
+                os pequenos momentos que ficam na memória. ✨
+            </p>
+
+            <button
+                id="segredo-revelar"
+                class="segredo-revelar"
+                type="button"
+            >
+                Revelar outra mensagem 💌
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>
